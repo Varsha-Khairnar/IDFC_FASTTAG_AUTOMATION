@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	
+	
+  <test name ="IDFC SANITY">
+	<classes>
+		<class name="complete_Vehicle_recharge"></class>
+		<class name="Dshboard_quik_Recharge"></class>
+		<class name="Quik_links_idfc"></class>
+		<class name="Dispute_banner"></class>
+		<class name="Transfer_banner_idfc"></class>
+		<class name="Recharge_Bnnar"></class>
+	</classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

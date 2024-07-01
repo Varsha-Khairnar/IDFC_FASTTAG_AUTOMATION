@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="IDFC SANITY(failed)">
+    <classes>
+      <class name="complete_Vehicle_recharge">
+        <methods>
+          <include name="GETURL"/>
+          <include name="VerifyRcharge"/>
+          <include name="VerifyTitle"/>
+          <include name="Select_Vehicle_for_Recharge"/>
+          <include name="SIGNIN"/>
+          <include name="Takescreenshot"/>
+        </methods>
+      </class> <!-- complete_Vehicle_recharge -->
+      <class name="Recharge_Bnnar">
+        <methods>
+          <include name="Transfer_Banner"/>
+          <include name="setUp"/>
+          <include name="testLoginAndNavigate"/>
+        </methods>
+      </class> <!-- Recharge_Bnnar -->
+      <class name="Dshboard_quik_Recharge">
+        <methods>
+          <include name="SIGNIN"/>
+          <include name="Dashboard_quick_Recharge"/>
+          <include name="GETURL"/>
+        </methods>
+      </class> <!-- Dshboard_quik_Recharge -->
+      <class name="Quik_links_idfc">
+        <methods>
+          <include name="setUp"/>
+          <include name="testProfileActions"/>
+          <include name="testLoginAndNavigate"/>
+        </methods>
+      </class> <!-- Quik_links_idfc -->
+      <class name="Transfer_banner_idfc">
+        <methods>
+          <include name="Transfer_Banner"/>
+          <include name="setUp"/>
+          <include name="testLoginAndNavigate"/>
+        </methods>
+      </class> <!-- Transfer_banner_idfc -->
+      <class name="Dispute_banner">
+        <methods>
+          <include name="testLoginAndNavigate"/>
+          <include name="testDisputeBanner"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Dispute_banner -->
+    </classes>
+  </test> <!-- IDFC SANITY(failed) -->
+</suite> <!-- Failed suite [Suite] -->
